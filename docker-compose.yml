@@ -1,0 +1,15 @@
+services:
+  # FastAPI后端 (SQLite，无需MySQL)
+  backend:
+    build: ./backend
+    container_name: shijie-ai-backend
+    restart: always
+    env_file:
+      - ./backend/.env
+    ports:
+      - "${APP_PORT:-9090}:9090"
+    volumes:
+      - sqlite_data:/app/data
+
+volumes:
+  sqlite_data:

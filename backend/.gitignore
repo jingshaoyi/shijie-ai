@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+logs/
+.idea/
+.vscode/
+
+# SQLite数据库文件
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm

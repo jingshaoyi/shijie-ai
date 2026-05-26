@@ -1,0 +1,168 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "识界AI",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "AI对话",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/generate/generate",
+			"style": {
+				"navigationBarTitleText": "文本生成",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/translate/translate",
+			"style": {
+				"navigationBarTitleText": "智能翻译",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/knowledge/knowledge",
+			"style": {
+				"navigationBarTitleText": "知识查询",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/history/history",
+			"style": {
+				"navigationBarTitleText": "历史记录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/agreement/privacy",
+			"style": {
+				"navigationBarTitleText": "隐私政策",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/agreement/terms",
+			"style": {
+				"navigationBarTitleText": "用户协议",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/worksummary/worksummary",
+			"style": {
+				"navigationBarTitleText": "工作总结",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/science/science",
+			"style": {
+				"navigationBarTitleText": "知识科普",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/poetry/poetry",
+			"style": {
+				"navigationBarTitleText": "诗歌创作",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/copywriting/copywriting",
+			"style": {
+				"navigationBarTitleText": "小红书文案",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/email/email",
+			"style": {
+				"navigationBarTitleText": "邮件撰写",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/codeexplain/codeexplain",
+			"style": {
+				"navigationBarTitleText": "代码解释",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/studyplan/studyplan",
+			"style": {
+				"navigationBarTitleText": "学习规划",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/productdesc/productdesc",
+			"style": {
+				"navigationBarTitleText": "产品描述",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "识界AI",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#2979FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/chat/chat",
+				"text": "对话"
+			},
+			{
+				"pagePath": "pages/history/history",
+				"text": "记录"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
